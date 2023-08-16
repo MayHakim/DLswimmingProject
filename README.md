@@ -3,8 +3,10 @@
 Ultralytics version 8.0.105: pip install 'ultralytics==8.0.105'
 <br>
 PyTorch: https://pytorch.org/get-started/locally/ 
-## Data
-You need to add a data folder to the project. Use this link https://drive.google.com/drive/folders/1VP4gmApwE2ujQ6lTwM-3k9zWLj5DKUx8?usp=drive_link to download the folder named "data" and place it in your project. This has the original images from our swimming dataset.
+<br>
+Note: if setting the environment doesn't work, you could try opening a new project and copy the cloned files to it.
+## Config
+In config.yaml, set the data path to your path to the data folder in the project.
 ## Choosing a model
 There are several options for a model. The basic model Yolov8n pretrained with Coco Dataset is 'yolov8n-pose.pt', the model that underwent additional training with the original data is 'original_model.pt', and the models trained with the manipulations are 'cartoon_trained_6.pt', 'cartoon_trained_30.pt'. These files are the updated weights of the models after training.
 ## Train
