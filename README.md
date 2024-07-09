@@ -36,4 +36,4 @@ Under the section "Our Manipulations" there are all the manipulations we used in
 Enjoy your cartoons!
 
 
-The full paper appears under "DL_Projrct.pdf".
+The full paper appears under "DL_Project.pdf".
