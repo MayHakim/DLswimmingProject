@@ -35,5 +35,9 @@ Under the section "Our Manipulations" there are all the manipulations we used in
 <br>
 Enjoy your cartoons!
 
-
+### About the Project
 The full paper appears under "DL_Project.pdf".
+The data folder was deleted in order to protect swimmers' privacy. 
+You can try our code with videos of swimmers filmed from a side view (sagittal). 
+The data folder contained two folders: "images" and "labels", each of them contained "train", "val", and "validation data for training" folders. These folders contained the images and labels of the train, test and validation sets, respectively. 
+Note: all videos must be divided to frames (images) and the labels for each frame must be in a YOLO format, with the same name as the image.    
